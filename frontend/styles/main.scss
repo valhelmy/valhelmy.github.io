@@ -1,0 +1,263 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F6F6;
+}
+
+// navbar
+.btn-login {
+    background-color: #EEB34B;
+    color: #fff;
+    font-weight: 600;
+    border-radius: none;
+    border: none;
+
+    margin-top: -8px !important;
+    margin-bottom: -8px !important;
+
+    min-height: 64px;
+
+
+    &:hover {
+        background-color: #F4B84D;
+        color: #fff;
+
+    }
+}
+// end navbar
+
+// start header
+header {
+    padding: 230px 0 38px;
+    margin-top: -64px;
+    background-image: url('../images/header-img.png');
+    background-size : cover ;
+    min-height: 100vh;
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        color: #fff;
+        font-size: 52px;
+    }
+
+    p {
+        font-family: 'poppins', sans-serif;
+        color: #fff;
+    }
+
+        .toggle-turun {
+        img {
+            margin-top: 120px;
+        }
+        
+     }
+
+    .btn-pilih-tujuan {
+        background-color: #EEB34B;
+        color: #fff;
+        font-weight: 600;
+        border: none;
+
+        &:hover {
+            background-color: #F4B860;
+            color: #fff;
+    
+        }
+    }
+}
+// end header
+
+// start main
+
+    // content-1
+    .content-1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        .keuntungan-anda {
+            h2 {
+
+                font-family: 'Playfair display', serif;
+                font-weight: bold;
+                font-size: 30px;
+            }
+            p {
+                color: #5a5a5a;
+            }
+        }
+
+        .tiga-untung {
+            h3 {
+                font-family: 'Playfair display', serif;
+                font-weight: bold;
+                font-size: 22px; 
+            }
+
+            p {
+                font-size: 14px;
+                color: #5a5a5a;
+            }
+            
+        }
+    }
+// end content-1
+
+// start content-2
+.btn-lihat-semua {
+    background-color: #EEB34B;
+        color: #fff;
+        font-weight: 600;
+        border: none;
+
+        &:hover {
+            background-color: #F4B860;
+            color: #fff;
+    
+        }
+}
+
+.content-2 {
+        h2 {
+            font-family: 'Playfair display', serif;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .paket-travel {
+            color: #5a5a5a;
+        }
+}
+
+.content-2 {
+    .tujuan-kota {
+        margin-top: 10px;
+
+            .card-foto {
+            min-height: 380px;
+            background-color: #EEB34B;
+            padding: 30px 30px 30px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            border-radius: 10px;
+            }              
+        }
+    }
+
+  .content-2 {
+      .tujuan-kota {
+          .tujuan-kota {
+              .provinsi {
+                  font-size: 18px;
+                  color: #fff;
+              }
+              .kota {
+                  font-size: 30px;
+                  font-weight: 500;
+                  color: #fff;
+              }
+          }
+      }
+  }  
+.content-2 {
+    .tujuan-kota {
+        .tujuan-button {
+            .btn-lihat-details {
+                margin-top: 280px;
+                background-color: #EEB34B;
+                color: #fff;
+                font-weight: 600;
+                
+            
+                &:hover {
+                    background-color: #F4B860;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+// end content-2
+
+// start content-3-testimonial
+.content-3-testimonial {
+    margin-top: 40px;
+    padding: 10px 0 0 0;
+    min-height: 600px;
+    background-color: #EEB34B;
+}
+
+.content-3-testimonial {
+    .headline-testimonial {
+        h2 {
+            font-family: 'Playfair display', serif;
+            font-weight: bold;
+            font-size: 30px;
+        }
+    }
+}
+.content-3-testimonial {
+    .card {
+        padding: 40px 20px 0px ;
+        margin-top: 50px;
+        border-radius: 12px;
+    }
+}
+
+
+.content-3-testimonial {
+    .komentar {
+        .card {
+            .deskripsi {
+                h2 {font-family: 'Oswald', sans-serif;
+                    font-size: 100px;
+                }
+            }
+        }
+    }
+}
+
+// start footer
+footer {
+    .list-unstyled {
+        li {
+            margin-bottom: 8px;
+            a {
+                text-decoration: none;
+                color: #5a5a5a;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: #5a5a5a;
+                }
+            }
+        }
+        
+    }
+}
+
+footer {
+    p {
+        font-size: 14px;
+        padding-right: 80px;
+        color: #5a5a5a;
+    }
+
+    a {
+        text-decoration: none;
+        color: #5a5a5a;
+
+        &:hover {
+            text-decoration: underline;
+            color: #5a5a5a;
+                    
+        }
+    }
+}
+
+footer {
+    .col-sm-6 {
+        .nomorHP {
+            font-size: 16px;
+            margin-bottom: 20px;
+        
+        }
+    }
+}
