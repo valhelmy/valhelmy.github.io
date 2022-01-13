@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+</head>
+
+<!-- BOOTSTAP -->
+<link rel="stylesheet" href="frontend/libraries/bootstrap-5.1.0/css/bootstrap.css">
+
+<link rel="stylesheet" href="frontend/styles/main.css">
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- xzoom -->
+<link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+<body>
+    <div class="container">
+         <!-- startNAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a href="#" class="navbar-brand">LOGO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navb"</button>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+                <div class="collapse navbar-collapse" id="navb">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active mx-2">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link mx-2">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link mx-2">About Us</a>
+                        </li>
+                    </ul>
+                    <form action="">
+                        <button class="btn-login px-4">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end NAVBAR -->
+
+    <main>
+         <section class="section-details-header">
+             <div class="container">
+                 <div class="row">
+                     <div class="col p-0">
+                         <nav>
+                             <ol class="breadcrumb">
+                                <li class="breadcrumb-item">Reguler</li>
+                                <li class="breadcrumb-item active">Lihat Detail</li>
+                             </ol>
+                         </nav>
+                     </div>
+                 </div>
+            
+                 <div class="row">
+                    <div class="col-lg-8 pl-lg-0">
+                        <div class="card card-details">
+                           <h1>Berau</h1>
+                           <p>Kalimantan Timur</p>
+
+                            <div class="gallery">
+                                <div class="xzoom-container">
+                                    <img src="frontend/images/travel-1.png" class="xzoom" id="xzoom-default" xoriginal="frontend/images/travel-1.png">
+                                </div>
+
+                                <div class="xzoom-thumbs">
+                                    <a href="frontend/images/travel-1.png">
+                                    <img src="frontend/images/travel-1.png" class="xzoom-gallery" width="180" xpreview="frontend/images/travel-1.png">
+                                </a>
+                                    <a href="frontend/images/travel-2.png">
+                                    <img src="frontend/images/travel-2.png" class="xzoom-gallery" width="180" xpreview="frontend/images/travel-2.png">
+                                </a>    
+                                    <a href="frontend/images/travel-3.png">
+                                    <img src="frontend/images/travel-3.png" class="xzoom-gallery" width="180" xpreview="frontend/images/travel-3.png">
+                                </a>
+                                    <a href="frontend/images/travel-4.png">
+                                    <img src="frontend/images/travel-4.png" class="xzoom-gallery" width="180" xpreview="frontend/images/travel-4.png">
+                                </a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="latar">
+                                        <div class="lokasi-item">
+                                            <img src="frontend/images/map-pin 1.png" alt="" class="lokasi-image">
+                                            <h2>Lokasi</h2>
+                                        </div>
+                                            <div class="deskripsi-detail">
+
+                                                <div class="input-group">
+                                                    <label for="lokasi">Dari </label>
+                                                    <select name="lokasi" id="lokasi" class="form-select">
+                                                        <option value="none">Choose...</option>
+                                                        <option value="Balikpapan">Balikpapan</option>
+                                                        <option value="Samarinda">Samarinda</option>
+                                                        <option value="Tanjung">Tanjung</option>
+                                                        <option value="Muara Teweh">Muara Teweh</option>
+                                                        <option value="Batu Licin"> Batu Licin</option>
+                                                        <option value="Banjarmasin">Banjarmasin</option>
+                                                    </select>
+                                                    <label for="lokasi">Menuju Berau</label>
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="latar">
+                                        <div class="lokasi-item">
+                                            <img src="frontend/images/calendar.png" alt="" class="lokasi-image">
+                                            <h2>Tanggal</h2>
+                                        </div>
+                                            <div class="deskripsi-detail">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control datepicker" id="tanggal">
+                                                </div>    
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-4">Kabupaten Berau adalah salah satu kabupaten di provinsi Kalimantan Timur, Indonesia. Ibu kota kabupaten ini terletak di kecamatan Tanjung Redeb. Kabupaten ini memiliki luas wilayah 36.962,37 km² dengan jumlah penduduk sekitar 238.214 jiwa, dan kepadatan penduduk 7 jiwa/km².</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card card-details card-right">
+                            <h2>Informasi Berangkat</h2>
+                            <table class="info-berangkat">
+                                <tr>
+                                    <th width="50%">Tanggal</th>
+                                    <td width="50%" class="text-end">21 November 2021</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Durasi</th>
+                                    <td width="50%" class="text-end px">2 hari</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Tipe</th>
+                                    <td width="50%" class="text-end">Reguler</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Lokasi</th>
+                                    <td width="50%"class="text-end">Balikpapan-Berau</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Total</th>
+                                    <td width="50%" class="text-end">Rp.400.000</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="gabung-container">
+                            <a href="checkout.html" class="btn d-block btn-gabung-sekarang mt-2 py-2">Gabung</a>
+                        </div>
+                    </div>
+                </div>
+
+             </div>
+
+         </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <a href="#" class="brand">
+                        <img src="" alt="">LOGO
+                    </a>
+                    <p class="mt-3">
+                        Travel ini melayani hingga
+                        ke provinsi Kalimantan
+                        Timur. 
+                    </p>
+                    <p>Copyright Rival Helmy</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    
+                    <ul class="list-unstyled">
+                        <p">
+                        About Us
+                    </p>
+                        <li><a  href="#">Who we are?</a></li>
+                        <li><a  href="#">FAQ</a></li>
+                        <li><a href="#">Terms & conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <p">
+                        Contact
+                    </p>
+                    <p class="nomorHP" >+62524000000</p>
+                    <a href="#">help@travel.com</a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frontend/libraries/bootstrap-5.1.0/js/bootstrap.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+
+ 
+
+  <script>
+    $(document).ready(function() {
+        $('.xzoom, .xzoom-gallery').xzoom ({
+            zoomWidth : 500,
+            tittle :false,
+            tint:'#333',
+            xoffset: 15,
+        });
+    }) 
+  </script>
+</body>
+</html>

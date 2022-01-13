@@ -1,10 +1,19 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #F6F6F6;
+  background-color: #ffffff;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar .navbar-nav .nav-item .active {
+  font-weight: bold;
 }
 
 .btn-login {
-  background-color: #EEB34B;
+  background-color: #6FADFF;
   color: #fff;
   font-weight: 600;
   border-radius: none;
@@ -15,7 +24,7 @@ body {
 }
 
 .btn-login:hover {
-  background-color: #F4B84D;
+  background-color: #9ec8ff;
   color: #fff;
 }
 
@@ -195,6 +204,139 @@ footer a:hover {
 
 footer .col-sm-6 .nomorHP {
   font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.section-details-header {
+  background-color: #F6F6F6;
+  padding-bottom: 80px;
+}
+
+.section-details-header .col .breadcrumb {
+  margin-bottom: 30px;
+}
+
+.section-details-header .col .breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+}
+
+.card-details {
+  padding: 40px;
+}
+
+.section-details-header .row .col-lg-8 .card-details h1 {
+  font-family: 'playfair-display',serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section-details-header .row .col-lg-8 .card-details p {
+  margin-top: -5px;
+  margin-bottom: 40px;
+}
+
+.section-details-header .row .col-lg-8 .card-details .catatan {
+  margin-top: 80px;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.gallery .xzoom-container .xactive {
+  border: 4px solid #F4B84D;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-header .row .col-md-6 .latar .lokasi-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.section-details-header .row .col-md-6 .latar .lokasi-item h2 {
+  margin-left: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.section-details-header .row .col-md-6 .latar .deskripsi-detail {
+  float: left;
+}
+
+.row .col-lg-4 .card-details h2 {
+  font-family: 'Playfair-display', serif;
+  font-weight: bold;
+  font-size: 24px;
   margin-bottom: 20px;
+}
+
+.row .col-lg-4 .card-details th {
+  font-size: 15px;
+  color: #474747;
+}
+
+.row .col-lg-4 .card-details td {
+  font-size: 14px;
+  color: #5e5e5e;
+}
+
+.gabung-container .btn-gabung-sekarang {
+  background-color: #EEB34B;
+  color: #fff;
+  font-weight: 600;
+}
+
+.gabung-container .btn-gabung-sekarang:hover {
+  background-color: #F4B860;
+  color: #fff;
+}
+
+.btn-edit {
+  background-color: #EEB34B;
+}
+
+.btn-hapus {
+  background-color: #e23737;
+}
+
+.bank p {
+  margin-top: -15px;
+  color: #5e5e5e;
+  font-size: 14px;
+}
+
+.jenis-bank {
+  font-size: 15px;
+}
+
+.gabung-container .btn-cancel-sekarang {
+  background-color: #f78282;
+  color: #fff;
+  font-weight: 600;
+}
+
+.gabung-container .btn-cancel-sekarang:hover {
+  background-color: #fa5151;
+  color: #fff;
+}
+
+main .checkout-berhasil {
+  text-align: center;
+}
+
+body main .checkout-berhasil .gambar-checkout {
+  min-height: 1px;
 }
 /*# sourceMappingURL=main.css.map */
